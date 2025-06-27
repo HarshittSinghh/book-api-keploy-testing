@@ -21,11 +21,13 @@ jobs:
           node-version: 18
 
       - name: Install Dependencies
+        working-directory: ./server
         run: npm install
 
       - name: Start Server in Background
+        working-directory: ./server
         run: |
-          nohup node server/index.js & 
+          nohup node index.js & 
           sleep 5
 
       - name: Install Keploy CLI
