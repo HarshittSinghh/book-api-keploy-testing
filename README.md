@@ -8,6 +8,8 @@ This project uses [Keploy](https://keploy.io/) for AI-powered API Testing, test 
 
 ---
 
+![Test Report](./assets/report.png)
+
 ## ⚙️ CI/CD Configuration
 
 This repository uses **GitHub Actions** for CI/CD.  
